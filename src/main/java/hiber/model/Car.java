@@ -1,13 +1,7 @@
 package hiber.model;
 
-import com.sun.istack.NotNull;
-import org.springframework.context.annotation.Scope;
-import org.springframework.lang.NonNullFields;
-import org.springframework.stereotype.Component;
-
 import javax.persistence.*;
 import java.util.Objects;
-
 
 @Entity
 @Table(name = "cars")
